@@ -239,6 +239,32 @@ footer ul {
     height: 70%;
 }
 
+/* form styles */
+
+.form{
+    width:400px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.Form-input{
+    padding: 1rem 0;
+}
+
+.form label{
+    display: block;
+}
+
+.form textarea{
+    resize: none;
+}
+
+.form input, .form textarea{
+    width:80%;
+}
+
+
 @media (min-width:800px) {
     #about, #projects{
         max-width:1200px;

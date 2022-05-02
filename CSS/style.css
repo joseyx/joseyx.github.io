@@ -276,23 +276,18 @@ footer ul {
         grid-template-columns: repeat(10, 1fr);
         gap: 1rem;
     }
-    #projects img {
+    #projects img, #about img{
         grid-column:1/6;
         grid-row:1/2;
     }
-    #about img{
-        grid-column:1/6;
-        grid-row:1/2;
-    }
+
     .text{
         grid-column:5/11;
         grid-row:1/2;
         order: 2;
         text-align: right;
     }
-    #about .text{
-        grid-row:1/2;
-    }
+
     #about ul,#projects ul{
         justify-content: flex-end;
     }
